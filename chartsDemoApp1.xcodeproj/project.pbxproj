@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462CB5F9268ECB4700CD8996 /* BarChart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462CB5F8268ECB4700CD8996 /* BarChart.storyboard */; };
+		462CB5FD268ECBEF00CD8996 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB5FC268ECBEF00CD8996 /* BarChartViewController.swift */; };
+		4652681E268EE9040058DA47 /* PieChart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4652681D268EE9040058DA47 /* PieChart.storyboard */; };
+		46526820268EE9EA0058DA47 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652681F268EE9EA0058DA47 /* PieChartViewController.swift */; };
 		46ABF186268E17C200E69E9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ABF185268E17C200E69E9C /* AppDelegate.swift */; };
 		46ABF188268E17C200E69E9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ABF187268E17C200E69E9C /* SceneDelegate.swift */; };
 		46ABF18A268E17C200E69E9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ABF189268E17C200E69E9C /* ViewController.swift */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		0255B06027A53BFC0CD70B1A /* Pods-chartsDemoApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chartsDemoApp1.release.xcconfig"; path = "Target Support Files/Pods-chartsDemoApp1/Pods-chartsDemoApp1.release.xcconfig"; sourceTree = "<group>"; };
 		2F3D2F3AE6885A740A75B340 /* Pods-chartsDemoApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chartsDemoApp1.debug.xcconfig"; path = "Target Support Files/Pods-chartsDemoApp1/Pods-chartsDemoApp1.debug.xcconfig"; sourceTree = "<group>"; };
+		462CB5F8268ECB4700CD8996 /* BarChart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarChart.storyboard; sourceTree = "<group>"; };
+		462CB5FC268ECBEF00CD8996 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		4652681D268EE9040058DA47 /* PieChart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PieChart.storyboard; sourceTree = "<group>"; };
+		4652681F268EE9EA0058DA47 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		46ABF182268E17C200E69E9C /* chartsDemoApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chartsDemoApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46ABF185268E17C200E69E9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46ABF187268E17C200E69E9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,11 +87,15 @@
 			children = (
 				46ABF185268E17C200E69E9C /* AppDelegate.swift */,
 				46ABF187268E17C200E69E9C /* SceneDelegate.swift */,
-				46ABF19D268E18CF00E69E9C /* BaseViewController.swift */,
 				46ABF189268E17C200E69E9C /* ViewController.swift */,
+				46ABF19D268E18CF00E69E9C /* BaseViewController.swift */,
 				46ABF19B268E189D00E69E9C /* LineChartViewController.swift */,
+				462CB5FC268ECBEF00CD8996 /* BarChartViewController.swift */,
+				4652681F268EE9EA0058DA47 /* PieChartViewController.swift */,
 				46ABF18B268E17C200E69E9C /* Main.storyboard */,
 				46ABF199268E188A00E69E9C /* LineChart .storyboard */,
+				462CB5F8268ECB4700CD8996 /* BarChart.storyboard */,
+				4652681D268EE9040058DA47 /* PieChart.storyboard */,
 				46ABF18E268E17C300E69E9C /* Assets.xcassets */,
 				46ABF190268E17C300E69E9C /* LaunchScreen.storyboard */,
 				46ABF193268E17C300E69E9C /* Info.plist */,
@@ -159,6 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4652681E268EE9040058DA47 /* PieChart.storyboard in Resources */,
+				462CB5F9268ECB4700CD8996 /* BarChart.storyboard in Resources */,
 				46ABF192268E17C300E69E9C /* LaunchScreen.storyboard in Resources */,
 				46ABF18F268E17C300E69E9C /* Assets.xcassets in Resources */,
 				46ABF19A268E188A00E69E9C /* LineChart .storyboard in Resources */,
@@ -220,6 +234,8 @@
 				46ABF19C268E189D00E69E9C /* LineChartViewController.swift in Sources */,
 				46ABF186268E17C200E69E9C /* AppDelegate.swift in Sources */,
 				46ABF188268E17C200E69E9C /* SceneDelegate.swift in Sources */,
+				46526820268EE9EA0058DA47 /* PieChartViewController.swift in Sources */,
+				462CB5FD268ECBEF00CD8996 /* BarChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

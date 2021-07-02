@@ -23,11 +23,30 @@
                                     <segue destination="Ydm-8v-Rl4" kind="show" id="Iwi-S4-lhG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCq-LZ-L79">
+                                <rect key="frame" x="0.0" y="104" width="414" height="30"/>
+                                <state key="normal" title="Bar Chart"/>
+                                <connections>
+                                    <segue destination="Kck-dF-kGq" kind="show" id="R0T-Tp-QTr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXO-ge-Wl0">
+                                <rect key="frame" x="175" y="154" width="64" height="30"/>
+                                <state key="normal" title="Pie Chart"/>
+                                <connections>
+                                    <segue destination="keU-Jy-L2Z" kind="show" id="1vK-Ia-Hfj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="SXO-ge-Wl0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PjL-ZN-xG4"/>
+                            <constraint firstItem="SXO-ge-Wl0" firstAttribute="top" secondItem="gCq-LZ-L79" secondAttribute="bottom" constant="20" id="aY2-oH-ZxB"/>
+                            <constraint firstItem="gCq-LZ-L79" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ebx-QA-2qD"/>
+                            <constraint firstItem="gCq-LZ-L79" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hUQ-lr-Nz9"/>
                             <constraint firstItem="DRn-n4-aK4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ndR-wk-WrM"/>
+                            <constraint firstItem="gCq-LZ-L79" firstAttribute="top" secondItem="DRn-n4-aK4" secondAttribute="bottom" constant="10" id="oA4-6Y-xJY"/>
                             <constraint firstItem="DRn-n4-aK4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="z3C-OU-39P"/>
                             <constraint firstItem="DRn-n4-aK4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zCk-OE-wnt"/>
                         </constraints>
@@ -46,6 +65,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cgt-IK-Vez" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="625" y="-4"/>
+        </scene>
+        <!--BarChart-->
+        <scene sceneID="a2o-ha-j6Z">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BarChart" id="Kck-dF-kGq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ScJ-gn-9cS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l0i-xi-fyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="633" y="58"/>
+        </scene>
+        <!--PieChart-->
+        <scene sceneID="gI8-B2-o7O">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PieChart" id="keU-Jy-L2Z" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WDj-HL-5Jr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="upV-xi-vnu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="116"/>
         </scene>
     </scenes>
     <resources>
