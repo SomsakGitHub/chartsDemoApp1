@@ -59,5 +59,4 @@ class LineChartViewController: BaseViewController {
         let data = LineChartData(dataSet: lineDataSet)
         lineChartView.data = data
     }
-    
 }

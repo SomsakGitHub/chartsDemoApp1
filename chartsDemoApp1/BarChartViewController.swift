@@ -46,5 +46,4 @@ class BarChartViewController: BaseViewController {
 //        let data = BarChartData(dataSets: [dataSet, dataSet2])
         chartView.data = data
     }
-
 }
